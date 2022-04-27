@@ -25,7 +25,7 @@ public class BanqueApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		
-		//creation client
+	/*	//creation client
 		
 		  Client alain = new Client("ALAIN"); Client carole = new Client("CAROLE");
 		  banqueService.createClient(carole); banqueService.createClient(alain);
@@ -45,7 +45,7 @@ public class BanqueApplication implements CommandLineRunner {
 		banqueService.retirer(4L, new BigDecimal("400"),"DAB");
 		banqueService.virer(3L, 4L, new BigDecimal("150"), "VIREMENT");
 		
-		banqueService.consulter(3L);
+		banqueService.consulter(3L);  */
 	}
 
 }

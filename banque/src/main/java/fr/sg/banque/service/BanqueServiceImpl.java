@@ -16,10 +16,12 @@ import fr.sg.banque.repository.ClientRepository;
 import fr.sg.banque.repository.CompteRepository;
 import fr.sg.banque.repository.OperationRepository;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 @Service
 @Transactional
 @AllArgsConstructor
+@NoArgsConstructor
 public class BanqueServiceImpl implements BanqueService {
 	
 	@Autowired
